@@ -1,8 +1,16 @@
 {
-  "name": "a04",
+  "name": "a04-handonna",
   "version": "1.0.0",
-  "description": "api using express and module from a03",
+  "description": "assignment 4",
   "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "curl": "^0.1.4",
+    "express": "^4.18.2",
+    "minimist": "^1.2.8"
+  },
   "scripts": {
     "test": "node server.js --port=5555"
   },
@@ -14,7 +22,7 @@
     "api"
   ],
   "author": "handonna",
-  "license": "GPL-3.0-or-later",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/comp426-2023-spring/a04-handonna/issues"
   },
